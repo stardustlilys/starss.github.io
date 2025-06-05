@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About | 'S POV</title>
+  <link rel="stylesheet" href="bootstrap.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Side Navigation -->
+  <div id="mySidenav" class="sidenav">
+    <a href="home.html">HOME</a>
+    <a href="activities.html">ACTIVITIES</a>
+    <a href="about.html">ABOUT</a>
+  </div>
+
+  <!-- Top Bar -->
+  <div class="topbar">
+    <span class="nav-toggle" onclick="openNav()">☰</span>
+    <div class="logo">'S POV</div>
+    <div class="page-label">ABOUT</div>
+  </div>
+
+  <!-- Header -->
+  <div class="header-img">
+    <div class="quote">
+      "I am a cage, in search of bird"  
+      <br>– Franz Kafka
+    </div>
+  </div>
+
+  <!-- About Content -->
+<div class="container about-content d-flex flex-wrap justify-content-between align-items-center py-5">
+  <div class="about-text col-md-6">
+      <h2>About the Designer</h2>
+      <p>Hi, Dear! <br> Kenalin, aku Safitri. Seorang mahasiswi yang memiliki minat besar dalam <span class="highlight">estetika</span>. Mau dalam bentuk tulisan, gambar, ataupun desain. Website ini adalah gambaran momen dari apa yang aku rasakan, tempat aku menyimpan <span class="highlight">kenangan</span> dan <span class="highlight">karya</span> yang berarti.</p>
+      <p>Minat aku terhadap <span class="highlight">seni visual</span> dan <span class="highlight">estetika hidup</span> membuatku aktif dalam organisasi, dokumentasi, dan membuat karya personal. Aku percaya bahwa setiap hal kecil punya ceritanya sendiri, termasuk website yang kubuat ini, dan juga kamu yang mengunjungi website-ku :)</p>
+    </div>
+    <div class="about-img">
+      <img src="asset/self5.jpg" alt="My Photo" />
+    </div>
+  </div>
+
+  <!-- Linktree Section -->
+  <div class="linktree">
+    <h3>Temui Aku di Sini</h3>
+    <a href="https://instagram.com/safadc" target="_blank">Instagram</a>
+    <a href="mailto:safitriayu1230@email.com">Email</a>
+    <a href="https://linktr.ee/stardustlilys" target="_blank">Linktree Utama</a>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>This artwork created by a girl who loves being the moon.<br/>With Love,<br/>S.</p>
+    <p>&copy; 2025</p>
+  </footer>
+
+  <!-- Script -->
+  <script>
+    function openNav() {
+      const nav = document.getElementById("mySidenav");
+      nav.style.width = nav.style.width === "250px" ? "0" : "250px";
+    }
+  </script>
+
+</body>
+</html>
