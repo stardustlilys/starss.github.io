@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="bootstrap.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=EB+Garamond&family=Playfair+Display&display=swap" rel="stylesheet">
+  <title>'S POV</title>
+</head>
+<body>
+
+  <!-- Side Navigation -->
+  <div id="mySidenav" class="sidenav">
+    <a href="index.html">HOME</a>
+    <a href="activities.html">ACTIVITIES</a>
+    <a href="about.html">ABOUT</a>
+  </div>
+
+  <!-- Top Bar -->
+<nav class="navbar navbar-dark bg-dark px-3">
+  <span class="navbar-toggler-icon" onclick="openNav()"></span>
+  <div class="navbar-brand fs-4 fw-bold">'S POV</div>
+  <div class="text-uppercase">HOME</div>
+</nav>
+
+  <!-- Header -->
+  <div class="header-img">
+    <div class="quote">
+      "I'm going to paint too. I'm going to paint pictures of ghosts and devils and horses out of hell."  
+      <br>– Osamu Dazai
+    </div>
+  </div>
+
+  <!-- Carousel -->
+<div class="container my-5">
+  <div class="row flex-nowrap overflow-auto">
+    <div class="col-10 col-md-4">
+    <img src="asset/self3.jpg" alt="carousel1" class="img-fluid rounded" />
+    </div>
+	<div class="col-10 col-md-4">
+    <img src="asset/draw1.jpg" alt="carousel2" class="img-fluid rounded" />
+    </div>
+    <div class="col-10 col-md-4">
+    <img src="asset/draw7.jpg" alt="carousel3" class="img-fluid rounded" />
+    </div>
+    <div class="col-10 col-md-4">
+    <img src="asset/kura3 (2).jpg" alt="carousel4" class="img-fluid rounded" />
+    </div>
+    <div class="col-10 col-md-4">
+    <img src="asset/view2.jpg" alt="carousel5" class="img-fluid rounded" />
+    </div>
+  </div>
+  </div>
+
+  <!-- Photo Navigation -->
+<div class="container text-center my-5">
+  <div class="row g-4 justify-content-center">
+    <div class="col-6 col-md-3">
+	<a href="activities.html"><img src="asset/kura4.jpg" alt="Activities" class="img-thumbnail"/></a>
+	</div>
+    <div class="col-6 col-md-3">
+	<a href="about.html"><img src="asset/self4.png" alt="Activities" class="img-thumbnail"/></a>
+	</div>
+  </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>This artwork created by a girl who loves being the moon.<br/>With Love,<br/>S.</p>
+    <p>&copy; 2025</p>
+  </footer>
+
+  <!-- Script -->
+  <script>
+    function openNav() {
+      const nav = document.getElementById("mySidenav");
+      nav.style.width = nav.style.width === "250px" ? "0" : "250px";
+    }
+  </script>
+
+</body>
+</html>
